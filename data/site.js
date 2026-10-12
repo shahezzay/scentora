@@ -1,0 +1,35 @@
+export const site = {
+  name: "Scentora",
+  tagline: "Perfumes you will love, at a price that makes sense",
+  announcement: "14 Days Refund Policy  |  New Scented Candles are here  |  Body Mists Are Live Now",
+  email: "hello@scentora.example",
+  whatsapp: "0300 0000000",
+  hours: "Mon - Sat: 10 AM - 10 PM, Sun: 2 PM - 10 PM",
+  outlets: [
+    { name: "Head Office", address: "Plot 00, Block 0, Sample Complex, Karachi" },
+    { name: "Gulshan Outlet", address: "Shop 00, Block 0, Sample Market, Karachi" },
+    { name: "Ocean Plaza Outlet", address: "Shop 00, 2nd Floor, Karachi" },
+    { name: "North Kiosk", address: "Kiosk FF-01, Phase 1, Karachi" },
+  ],
+  nav: [
+    { label: "Home", href: "/" },
+    {
+      label: "Shop All",
+      href: "/collections/frontpage",
+      children: [
+        { label: "Men", href: "/collections/perfume-for-him" },
+        { label: "Women", href: "/collections/perfume-for-her" },
+        { label: "Mist", href: "/collections/mist" },
+        { label: "Unisex", href: "/collections/unisex" },
+        { label: "100ML Perfumes", href: "/collections/100-ml" },
+        { label: "Candles", href: "/collections/candles" },
+        { label: "Him & Her Duo", href: "/products/his-and-hers-duo" },
+      ],
+    },
+    { label: "Aarambh Series", href: "/pages/aarambh-series" },
+    { label: "Crazy Deals", href: "/collections/crazy-deals" },
+    { label: "About Us", href: "/pages/about-us" },
+    { label: "Contact Us", href: "/pages/contact-us" },
+    { label: "Spot Fake", href: "/pages/is-this-real" },
+  ],
+};
